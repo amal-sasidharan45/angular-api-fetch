@@ -1,0 +1,27 @@
+<!-- <pre>
+    {{details |json}}
+</pre> -->
+<div class="container ">
+<div class="row mt-5">
+    <div class="col-6" *ngFor="let detail of details">
+<div class="card mt-5">
+    <div class="card-body p-5">
+     <div class="row">
+       <div class="col-6">
+        <ul class="list-group list-group-flush m-3">
+            <li class="list-group-item text-success">Id:{{detail.id}}</li>
+            <li class="list-group-item text-success">userId:{{detail.userId}}</li>
+            <li class="list-group-item text-success">Title:{{detail.title}}</li>
+            <li class="list-group-item text-success">Body:   &nbsp;{{detail.body}}</li>
+
+          </ul>
+        </div>
+          <div class="col-6">
+            <img src="https://th.bing.com/th/id/OIP.v0Cw6Gydr5bjYPAQrKRljwHaHa?w=189&h=189&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="">
+        </div>
+     </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
